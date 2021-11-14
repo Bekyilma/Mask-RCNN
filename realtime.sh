@@ -1,0 +1,2 @@
+
+python realtime_video_segmentation.py
