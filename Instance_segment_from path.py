@@ -8,7 +8,7 @@ def main():
     segmentation_model = instance_segmentation()
     segmentation_model.load_model('mask_rcnn_coco.h5')
 
-    capture = cv2.VideoCapture("/users/path-to-file")
+    capture = cv2.VideoCapture("/users/path-to_file")
     while capture.isOpened():
         ret, frame = capture.read()
 
